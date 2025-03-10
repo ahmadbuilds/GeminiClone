@@ -6,7 +6,7 @@ let icons=document.querySelectorAll('.icons');
 let input_bar=document.getElementsByClassName('input-bar')[0];
 let count_Message=0;
 let is_Generating=false;
-const API_KEY="AIzaSyCjdPF-hoPmLOsIzAUGZ58br9MUGtCdHTY";
+const API_KEY="";
 sun.addEventListener('click',()=>myfunction(1));
 moon.addEventListener('click',()=>myfunction(2));
 // basic styling of home screen
