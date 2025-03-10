@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const API_KEY = "AIzaSyCjdPF-hoPmLOsIzAUGZ58br9MUGtCdHTY";
+const API_KEY = "";
 
 document.getElementById('pro').addEventListener('click', myfunction);
 
