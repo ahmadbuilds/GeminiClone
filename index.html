@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/a11y-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5d23ae25cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Google Gemini</title>
+  </head>
+  <body>
+    <!-- tags for navigation  -->
+    <div class="navigation">
+      <h3>Google Gemini</h3>
+      <i class="fa-regular fa-sun" id="sun"></i>
+      <i class="fa-solid fa-moon" style="display: none" id="moon"></i>
+    </div>
+    <div class="container1">
+      <!-- main tags for  scrolling and prompt -->
+      <div class="container">
+        <div class="greeting-container">
+          <h1 class="colorful">Hello, There!</h1>
+          <h1 class="dull">How Can I help you today?</h1>
+        </div>
+        <div class="question-container">
+          <div class="question-container-1">
+            <p>Give tips on helping kids finish their homework on time.</p>
+            <div class="button1">
+              <i class="fa-solid fa-stopwatch icons"></i>
+            </div>
+          </div>
+          <div class="question-container-1">
+            <p>Help me write an out-of-office email</p>
+            <div class="button1">
+              <i class="fa-solid fa-pen icons"></i>
+            </div>
+          </div>
+          <div class="question-container-1">
+            <p>Give me Phrases to Learn a new Language.</p>
+            <div class="button1">
+              <i class="fa-regular fa-compass icons"></i>
+            </div>
+          </div>
+          <div class="question-container-1">
+            <p>Show me how to build something by hand.</p>
+            <div class="button1">
+              <i class="fa-solid fa-wrench icons"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- input bar  -->
+      <div class="input-bar">
+        <input type="text" id="pro" placeholder="Enter a prompt here" />
+        <div class="button2">
+          <i class="fa-regular fa-trash-can icons1"></i>
+          <i
+            class="fa-solid fa-paper-plane icons1"
+            id="pro2"
+            style="visibility: hidden; opacity: 0; display: none"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script src="function.js" type="module"></script>
+  </body>
+</html>
